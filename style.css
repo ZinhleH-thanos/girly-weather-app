@@ -98,3 +98,29 @@ body {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
   }
+
+.github-links {
+    background: #ff99cc;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(255, 153, 204, 0.5);
+  }
+  
+  .github-links p {
+    margin: 5px 0;
+    font-size: 1rem;
+    font-family: 'Pacifico', cursive;
+    color: white;
+  }
+  
+  .github-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .github-links a:hover {
+    color: #ffccdd;
+    text-decoration: underline;
+  }
